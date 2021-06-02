@@ -1,0 +1,12 @@
+/* .body  {padding: 0%ma;} */
+.produitvis {display: none;}
+.po{display: flex;align-items: center;width: 100%;height: 400px; }
+.produit{width: 33.33%;height: 400px;background-color: rgb(58, 201, 89);position: relative;}
+
+.bg{background-color: rgb(243, 97, 12);}
+.love{position: absolute;right: 65px ;top: 105px;}
+.love img{width: 20px;height: 20px;}
+.po img {transition: transform .2s;}
+.po img:hover{transform:scale(1,1.03);}
+.new{width: 25px;height: 25px;background-color: red;} 
+

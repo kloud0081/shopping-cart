@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>DOM</title>
+</head>
+
+<body>
+    <section class="po">
+        <div class="produit">
+            <img src="product1.png" />
+            <div><button class="love" name="0" ; onclick="love(name)"><img class="img" src="love.png"/></button>
+                <h3>Modern clock 88mm / 117mm</h3>
+                <button class="btnplus" type="button">+ </button>
+                <span class="total">0</span>
+
+                <button class="btnmoin" type="button">-</button>
+                <span class="price">30</span>$
+                <button class="remove" name="0" onclick="remove(name)">remove</button>
+            </div>
+
+        </div>
+        <div class="produit">
+            <img src="product3.png" />
+            <div><button class="love" name="1" ; onclick="love(name)"><img  class="img" src="love.png" /></button>
+              <h3>  HD LED Light Bulbs, 65W LED Floodlight White</h3>
+                <button class="btnplus" type="button">+ </button>
+                <span class="total">0</span>
+                <button class="btnmoin" type="button">-</button>
+                <span class="price">20</span>$
+
+                <button class="remove" name="1" onclick="remove(name)">remove</button>
+
+            </div>
+
+    </section>
+
+    <form>
+        <label>Total</label> <span id="t">0</span>$
+    </form>
+    <script src="checkpoint.js"></script>
+</body>
+
+</html>
